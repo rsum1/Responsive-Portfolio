@@ -219,9 +219,19 @@ input[type=submit] {
 @media only screen and (max-width: 980px){
   .container {
     width: 100%;
-    max-width: 60%;
+    max-width: 90%;
     margin-left: 60px;
     clear: both;
+  }
+
+  .main-section {
+    float: left;
+    width: 70%;
+    max-width: 960px;
+    padding: 30px;
+    margin: 0 0 40px;
+    background: #ffffff;
+    border: 1px solid #dddddd;
   }
 }
 
@@ -232,6 +242,16 @@ input[type=submit] {
     margin-left: 20px;
     margin-right: 20px;
     clear: both;
+  }
+
+  .main-section {
+    float: left;
+    width: 100%;
+    max-width: 960px;
+    padding: 30px;
+    margin: 0 0 40px;
+    background: #ffffff;
+    border: 1px solid #dddddd;
   }
 }
 
@@ -311,4 +331,12 @@ input[type=submit] {
     border: 1px solid #dddddd;
   }
   
+  .work {
+    position: relative;
+    float: left;
+    width: 95%;
+    margin: 20px 0 25px;
+    overflow: auto;
+  }
+
 }
